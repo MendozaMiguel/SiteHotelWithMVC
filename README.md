@@ -1,7 +1,7 @@
 # SiteHotelWithMVC
 développer sous NodeJS et ses modules
 
-Télécharger le fichier hotel.sql avant d'importer le fichier vers la base de données veuillez crée une base de données nommée "hotel".
+Télécharger le fichier hotel.sql, avant d'importer le fichier vers la base de données veuillez crée une base de données nommée "hotel".
 
 Après avoir télécharger ou cloné le dossier veuillez supprimer le dossier "node_modules".
 
