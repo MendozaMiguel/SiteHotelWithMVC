@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=”fr”>
+
+<% include squelette/header.ejs %>
+<body>
+<a href="/">Accueil</a>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h1><strong>Voir un item</strong></h1>
+        <br>
+        <form>
+            <% resultat.forEach(function(item){ %>
+            <div class="form-group">
+                <label>ID_Recapitulatif :<%= item.id_facturation %></label>
+            </div>
+            <div class="form-group">
+                <label>nom:<%= item.nom %></label>
+            </div>
+            <div class="form-group">
+                <label>Prenom:<%= item.prenom%></label>
+            </div>
+            <div class="form-group">
+                <label>Téléphone:<%= item.tel%></label>
+            </div>
+            <%}) %>
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<% include squelette/footer.ejs %>
+
+</body>
+</html>
