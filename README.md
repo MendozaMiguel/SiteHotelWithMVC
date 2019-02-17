@@ -1,9 +1,22 @@
 # SiteHotelWithMVC
-développer sous NodeJS et ses modules.
 
-Télécharger le fichier hotel.sql, avant d'importer le fichier vers la base de données veuillez crée une base de données nommée "hotel".
+développer sous NodeJS et ses modules
 
-Ensuite dans le dossier configuration ouvrez le fichier mysqlConf.js et veuillez saisir vos données pour la connection à votre base de données.
+Télécharger le fichier hotel.sql, avant d'importer le fichier vers la base de données veuillez crée une base de données nommée "hotel" ou veuillez configurer le nom de la bdd dans le script hotel.sql
+
+Creez un dossier nommé configuration à la racine du projet, dans ce dossier crée un fichier nommé mysqlConf.js et copier le code ci-dessous
+
+```js
+const mysql = require('promise-mysql');
+const connection = mysql.createConnection({
+    host     : 'Hôte MySQL',
+    user     : 'username',
+    password : "your_password",
+    database : 'name_database'
+})
+
+module.exports = connection;
+```
 
 ## Build Setup
 
