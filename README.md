@@ -11,10 +11,10 @@ Ensuite dans le dossier configuration ouvrez le fichier mysqlConf.js et veuillez
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:3001
+# serve with hot reload at localhost:3000
 npm start
 ```
-then go to [http://localhost:3001](http://localhost:3001)
+then go to [http://localhost:3000](http://localhost:3000)
 
 
 
