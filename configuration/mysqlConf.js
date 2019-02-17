@@ -4,12 +4,12 @@ const connSql = require('./configuration/mysqlConf');
 puis connSql.query("SELECT * ...
  */
 
-// var mysql = require('promise-mysql');
-// const connection = mysql.createConnection({
-//     host     : '127.0.0.1',
-//     user     : 'root',
-//     password : "root",
-//     database : 'hotel'
-// })
+var mysql = require('promise-mysql');
+const connection = mysql.createConnection({
+    host     : 'mysql-miguel.alwaysdata.net',
+    user     : 'miguel',
+    password : "Miguel93500",
+    database : 'miguel_hotel'
+})
 
-// module.exports = connection;
+module.exports = connection;
