@@ -147,6 +147,7 @@ app.get('/noustrouver', client.NousTrougerGet);
 // app.get('/recapitulatif',client.AfficherFacture);
 
 // on lance l'application sur le port 3000
-app.listen(3001, function () {
-    console.log("L'application est lancée et en écoute sur http://localhost:3000")
-});
+const port=process.env.PORT || 3000
+app.listen(port,() => {
+    console.log(`Server running at port `+port);
+    });
