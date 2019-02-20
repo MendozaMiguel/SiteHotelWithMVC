@@ -40,4 +40,4 @@ Thumbs.db
 yarn.lock
 
 # config mysql
-# /configuration
+/configuration
