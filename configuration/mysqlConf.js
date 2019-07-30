@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
     host     : 'mysql-miguel.alwaysdata.net',
     user     : 'miguel',
     password : "Miguel93500",
-    database : 'miguel_hotel'
+    database : 'miguel_10091995'
 })
 
 module.exports = connection;
